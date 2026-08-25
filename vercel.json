@@ -1,0 +1,17 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/css/(.*)",
+      "destination": "/src/main/resources/static/css/$1"
+    },
+    {
+      "source": "/js/(.*)",
+      "destination": "/src/main/resources/static/js/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/src/main/resources/static/index.html"
+    }
+  ]
+}
